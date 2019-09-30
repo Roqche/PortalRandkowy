@@ -6,15 +6,6 @@
   </PropertyGroup>
 
   <ItemGroup>
-    <Compile Remove="Migrations\20190901111538_ExtendedUser.cs" />
-    <Compile Remove="Migrations\20190901111538_ExtendedUser.Designer.cs" />
-    <Compile Remove="Migrations\20190901111950_ExtendedUser.cs" />
-    <Compile Remove="Migrations\20190901111950_ExtendedUser.Designer.cs" />
-  </ItemGroup>
-
-  <ItemGroup>
-    <PackageReference Include="AutoMapper.Extensions.Microsoft.DependencyInjection" Version="4.0.1" />
-    <PackageReference Include="CloudinaryDotNet" Version="1.3.1" />
     <PackageReference Include="Microsoft.AspNetCore.App" />
     <PackageReference Include="Microsoft.AspNetCore.Razor.Design" Version="2.2.0" PrivateAssets="All" />
   </ItemGroup>
